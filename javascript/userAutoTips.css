@@ -1,0 +1,4 @@
+#autoTipsUserList li  , #autoTipsUserList{ margin: 0px; padding: 0px; list-style: none outside none;}
+.recipients-tips{ position:absolute; background:#f7f7f2; z-index:2147483647; padding:2px; border:1px solid #6b9228; display:none;}
+.recipients-tips li a{display:block; padding:2px 5px; color:#333; cursor:pointer;}
+.autoSelected{background:#b8c796;}

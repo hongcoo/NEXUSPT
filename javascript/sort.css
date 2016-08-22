@@ -1,0 +1,16 @@
+table td.headerSort {
+	/* @embed */
+        background-image: url(sort_both.gif);
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-position: center right;
+        padding-right: 21px;
+}
+table td.headerSortUp {
+	/* @embed */
+        background-image: url(sort_up.gif);
+}
+table td.headerSortDown {
+	/* @embed */
+        background-image: url(sort_down.gif);
+}

@@ -1,0 +1,77 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font: normal normal normal 12px/1 Arial, 'Hiragino Sans GB', STHeiti, sans-serif;
+}
+#main {
+	min-height: 100%;
+	position: relative;
+}
+
+#dialog-wrap {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: #ddd;
+	background: #f3f9ff url('redirect-bg.jpg') no-repeat bottom center;
+	height: 100%;
+	min-width: 1000px;
+}
+
+#dialog {
+	position: absolute;
+	bottom: 360px;
+	left: 45%;
+/*	margin:  100px;*/
+/*	padding: 200px;*/
+/*	margin-left: 400px;*/
+	display: inline-block;
+	padding: 10px 20px;
+	background: #fff;
+	border: 1px solid #a5d7ec;
+	border-radius: 3px;
+	color: #186bac;
+	text-align: left;
+}
+	#dialog:before {
+		position: absolute;
+		top: 80px;
+		left: -42px;
+		width: 42px;
+		height: 43px;
+		display: block;
+		content: ' ';
+		background: url('redirect-arrow.png') no-repeat left top;
+	}
+	#dialog a {
+		color: #186bac;
+		text-decoration: none;
+	}
+	.o_link {
+		color: #fff !important;
+		padding: 3px 5px;
+		background: #4cc0e6;
+		border-radius: 3px;
+	}
+		.o_link:hover {
+			background: #6bc8e6;
+		}
+	.redirect-line {
+		height: 10px;
+		width: 275px;
+		display: block;
+		background: url('redirect-line.png') no-repeat left top;
+	}
+	.redirect-btn {
+		height: 35px;
+		width: 200px;
+		display: block;
+		background: url('redirect-btn.png') no-repeat left top;
+		text-indent: -9999px;
+	}
+		.redirect-btn:hover {
+			opacity: .85;	
+		}
