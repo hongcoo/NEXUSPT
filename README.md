@@ -1,14 +1,10 @@
-ASPT
+NEXUSPT
 --------------------
 Based On Nexusphp
 
 LICENSE
 --------------------
 GPL
-
-CONTACT
---------------------
-You can contact us at http://www.swjtuosc.net/ 
 
 Requirements
 --------------------
@@ -24,4 +20,5 @@ Additional
 * 验证码的话，如果开启海报验证，要等种子数目足够多才行，
 
 
-
+默认账号test
+密码test
