@@ -2,10 +2,6 @@ NEXUSPT
 --------------------
 Based On Nexusphp
 
-LICENSE
---------------------
-GPL
-
 Requirements
 --------------------
 * [Memcache](http://php.net/manual/en/book.memcache.php)
